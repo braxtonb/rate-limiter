@@ -24,5 +24,5 @@ https://user-images.githubusercontent.com/13091519/133372384-2f421b29-cc74-4182-
 
 For any other commands, run `npm run ntl` to see choices available.
 
-*Note, if the Express.js server is built and run without docker-compose ensure the `REDIS_CONNECTION_STRING` environment variable is provided.*
+*Note, if the Express.js server is built and run without docker-compose ensure the `REDIS_CONNECTION_STRING` environment variable is provided when Redis is not using the default `redis://localhost:6379` connection string.*
 
