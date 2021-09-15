@@ -13,7 +13,9 @@ Simple Express.js server leveraging Redis to enforce rate limiting using a slidi
 
 ## Example
 
-<video src="./media/2021_09_15_rate_limter_example.mov" alt="Weather email example" width="500px" />
+For demonstration purposes, the below example allows only 3 requests per minute per unique IP.
+
+https://user-images.githubusercontent.com/13091519/133372384-2f421b29-cc74-4182-b403-4e72a6ac4bc0.mov
 
 ## Setup
 
