@@ -26,7 +26,7 @@ interface AsyncRedisClient extends CreatedRedisClient {
 class RedisClient {
   private client: AsyncRedisClient;
   private REDIS_CONNECTION =
-    process.env.REDIS_CONNECTION_STRING ?? 'redis//localhost:6379';
+    process.env.REDIS_CONNECTION_STRING ?? 'redis://localhost:6379';
   private windowSliceRequestCapacity = 100;
   private slidingWindowDuration = HOUR_IN_SECONDS;
 
